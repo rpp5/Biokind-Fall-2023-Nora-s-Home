@@ -1,5 +1,4 @@
 ID,Hospital,Gender,Address1,Address2,City,State,Country,ZIP,County,Email,Diagnosis,DiagnosisDetails,BirthdateMonth,BirthdateDate,BirthdateYear,Language,Ethnicity,Referral,PrimaryGuestId,PrimaryMedicalContactID,Notes
-,,,,,,,,,,,,,,,,,,,,,
 25968,CHI St. Luke's ,Male,3612 Hummingbird,,MCALLEN,TEXAS,United States,78504,HIDALGO,,Post Liver ,,8,12,1958,English,Hispanic,CHI St. Luke's ,0,0,SW - Ann Holder 832-955-3026
 25988,Memorial Hermann ,Male,1924 Sheldon,,CLOVIS,NEW MEXICO,United States,88101,CURRY,,Post Kidney,,0,0,0,English,White - Non-Hispanic/Caucasian,Memorial Hermann ,0,0,SW - Jamie Everitt 713-441-1945
 26136,Methodist Hospital,Female,7819 E Estate,,NACOGDOCHES,TEXAS,United States,75961,NACOGDOCHES,,Post Heart ,,12,29,1972,English,White - Non-Hispanic/Caucasian,Houston Methodist ,0,0,SW- Linda Pham 713-441-1960
