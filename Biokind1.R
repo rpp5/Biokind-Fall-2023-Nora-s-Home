@@ -8,6 +8,7 @@ install.packages("ggplot2")
 library(ggplot2)
 install.packages("dplyr")
 library(dplyr)
+library(scales)
 library(tidyverse)
 library(plotly)
 
@@ -77,7 +78,8 @@ server <- function(input, output) {
       ggtitle(paste("Hospitals Data for", selected_variable, "since 2013")) +
       theme_minimal() +
       theme(plot.margin = margin(b = 60)) +
-      facet_wrap(~Category, scales = "free_y", ncol = 1)
+      facet_wrap(~Category, scales = "free_y", ncol = 1) +
+      scale_y_continuous(labels = scales::comma_format(scale = 1e0))
   })
 }
 
